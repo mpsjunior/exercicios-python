@@ -6,12 +6,12 @@ class Teste():
         return self.x
 
     def setValor(self, v):
-        self.x
+        self.x = v
 
 teste = Teste (10)
 print("Valor do objeto:",teste.getValor())
 
-val = int(input("digite um valor numérico: "))
+val = int(input("Digite um valor numérico: "))
 teste.setValor(val)
 print("Valor do objeto após atribuição:",teste.getValor())
 
